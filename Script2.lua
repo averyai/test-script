@@ -30,7 +30,7 @@ local unclaimed = {}
 local errCount = -1
 
 local queueonteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
-queueonteleport("loadstring(game:HttpGet('hhttps://raw.githubusercontent.com/averyai/test-script/main/Script2.lua'))()")
+queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/averyai/test-script/main/Script2.lua'))()")
 
 if not getgenv().settin then
 	getgenv().settin = {
