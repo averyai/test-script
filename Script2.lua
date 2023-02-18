@@ -47,17 +47,24 @@ if not getgenv().settin then
 		['Beg'] = {
 			['Delay'] = 120,
 			['Messages'] = {
-	     'Hello there! Are you feeling lucky and ready to win big with Robuxs? Look no further than the Golden Casino. take a chance and strike it rich. Dont hesitate.',
+'Hello there! Are you feeling lucky and ready to win big with Robuxs? Look no further than the Rolex Casino. take a chance and strike it rich. Dont hesitate.' ,
             'You could earn big by just playing the game',
             'Are you tired of waiting without receiving the donations you deserve? Play Our Game.',
             'Win big, play now!',
-            'Your lucky streak starts here try the Goldan Casino.',
-            'Goldan Casino Come for the games, stay for the fun.',
-            'Goldan Casino Where winners come to play.'
-            'Play hard, win big Your fortune awaits at Goldan Casino',
-            'Take a chance at the golden casino, you never know what might happen.',
-            'Luck is on your side at the Golden Casino.',
-            'Raise the stakes and up your game Golden Casino'
+            'Your lucky streak starts here try the Rolex Casino.',
+            'Rolex Casino Come for the games, stay for the fun.',
+            'Rolex Casino Where winners come to play.',
+            'Play hard, win big Your fortune awaits at Rolex Casino',
+            'Take a chance at the Rolex casino, you never know what might happen.',
+            'Luck is on your side at the Rolex Casino.',
+            'Win big or go home!',
+            'The casino that makes dreams come true.',
+            'You play, you win, you conquer.',
+            'Join the party at the Rolex Casino.',
+            'Let your luck shine at the Rolex Casino.',
+            'The home of the biggest jackpots',
+            'Start playing, start winning, start celebrating!',
+            'Raise the stakes and up your game Rolex Casino'
 {
 {
 {
