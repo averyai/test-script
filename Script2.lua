@@ -17,13 +17,7 @@ getgenv().loadedx = true
 
 local x_scam = 0
 
-if isfile and writefile and typeof(isfile) == 'function' and typeof(writefile) == 'function' then
-	if not isfile('PromptedDiscordCFCommunityRRRRR.txt') then
-		writefile('PromptedDiscordCFCommunityRRRRR.txt', game:GetService('HttpService'):JSONEncode('hi'))
-		local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Discord%20Inviter/Source.lua"))()
-		Module.Prompt({
-			invite = "https://discord.gg/fNeggqVMZs",
-			name = "CF Community",
+
 		})
 	end
 end
