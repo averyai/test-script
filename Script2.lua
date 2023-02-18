@@ -20,7 +20,7 @@ local x_scam = 0
 if isfile and writefile and typeof(isfile) == 'function' and typeof(writefile) == 'function' then
 	if not isfile('PromptedDiscordCFCommunityRRRRR.txt') then
 		writefile('PromptedDiscordCFCommunityRRRRR.txt', game:GetService('HttpService'):JSONEncode('hi'))
-		local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/averyai/test-script/main/Script2.lua"))()
+		local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Discord%20Inviter/Source.lua"))()
 		Module.Prompt({
 			invite = "https://discord.gg/fNeggqVMZs",
 			name = "CF Community",
@@ -36,7 +36,7 @@ local unclaimed = {}
 local errCount = -1
 
 local queueonteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
-queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/averyai/test-script/main/Script2.lua'))()")
+queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/casino.lua'))()")
 
 if not getgenv().settin then
 	getgenv().settin = {
@@ -48,7 +48,7 @@ if not getgenv().settin then
 		['Beg'] = {
 			['Delay'] = 120,
 			['Messages'] = {
-	    'Hello there! Are you feeling lucky and ready to win big with Robuxs? Look no further than the Golden Casino. take a chance and strike it rich. Dont hesitate.'
+	     'Hello there! Are you feeling lucky and ready to win big with Robuxs? Look no further than the Golden Casino. take a chance and strike it rich. Dont hesitate.'
             'You could earn big by just playing the game',
             'Are you tired of waiting without receiving the donations you deserve? Play Our Game.'
             'Win big, play now!'
@@ -57,7 +57,7 @@ if not getgenv().settin then
             'Goldan Casino Where winners come to play.'
             'Play hard, win big Your fortune awaits at Goldan Casino'
             'Take a chance at the golden casino, you never know what might happen.'
-            'Luck is on your side at the Golden Casino.'
+            'Luck is on your side at the Golden  Casino.'
             'Raise the stakes and up your game Golden Casino'
 			}
 		}
