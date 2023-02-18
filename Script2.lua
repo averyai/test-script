@@ -17,11 +17,16 @@ getgenv().loadedx = true
 
 local x_scam = 0
 
-
+if isfile and writefile and typeof(isfile) == 'function' and typeof(writefile) == 'function' then
+	if not isfile('PromptedDiscordCFCommunityRRRRR.txt') then
+		writefile('PromptedDiscordCFCommunityRRRRR.txt', game:GetService('HttpService'):JSONEncode('hi'))
+		local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Discord%20Inviter/Source.lua"))()
+		Module.Prompt({
+			invite = "https://discord.gg/fNeggqVMZs",
+			name = "CF Community",
 		})
 	end
 end
-
 local Players = game:GetService('Players')
 local debounceThing = Instance.new('Folder', game:GetService('CorePackages'))
 local httprequest = (syn and syn.request) or http and http.request or http_request or (fluxus and fluxus.request) or request
