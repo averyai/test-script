@@ -58,9 +58,9 @@ if not getgenv().settin then
             'Take a chance at the golden casino, you never know what might happen.',
             'Luck is on your side at the Golden Casino.',
             'Raise the stakes and up your game Golden Casino'
-			}
-		}
-	}
+{
+{
+{
 end
 
 local text = [[
